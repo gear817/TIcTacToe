@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
@@ -36,6 +36,9 @@
                                         <include reference="v8R-cY-shG"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4yb-Rj-Ikj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xMp-nb-uQZ">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -56,6 +59,9 @@
                                         <include reference="Yc3-Bd-9yS"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2yk-Xv-w3Q"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tc2-1y-uma">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -76,6 +82,9 @@
                                         <include reference="AfY-Qx-APU"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R6P-5q-424"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="but-I8-def">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -96,6 +105,9 @@
                                         <include reference="wc1-Yy-G2F"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OKO-xz-TOn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eQ9-Vc-Bod">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -116,6 +128,9 @@
                                         <include reference="a0e-DZ-0eV"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gj3-C6-lV7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wwH-IE-W2m">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -136,6 +151,9 @@
                                         <include reference="mtA-46-3ks"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MaR-dI-N2R"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jgi-nh-f0i">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -156,6 +174,9 @@
                                         <include reference="iBT-bq-cCp"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v9k-6F-dcT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gyD-Ek-AHq">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -176,8 +197,11 @@
                                         <include reference="rCK-Kj-KnX"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="txc-jn-Ozg"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LBG-Ua-FzQ">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LBG-Ua-FzQ">
                                 <rect key="frame" x="230" y="338" width="46" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="0RB-9R-1Qg"/>
@@ -196,7 +220,19 @@
                                         <include reference="ety-Da-yCE"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="i1I-2O-mf4"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oma-1F-c7A">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="28" width="360" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -229,24 +265,25 @@
                                 <exclude reference="wwH-IE-W2m"/>
                                 <exclude reference="Jgi-nh-f0i"/>
                                 <exclude reference="gyD-Ek-AHq"/>
+                                <exclude reference="Oma-1F-c7A"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="1l3-qK-kge"/>
-                                <exclude reference="jDB-N5-o1z"/>
+                                <exclude reference="plq-Gq-aFU"/>
+                                <exclude reference="iEw-lQ-x2h"/>
                                 <exclude reference="pWp-Hc-j11"/>
                                 <exclude reference="rPT-yk-AA6"/>
-                                <exclude reference="iEw-lQ-x2h"/>
                                 <exclude reference="4rk-xX-cO2"/>
                                 <exclude reference="CD5-Qx-ULv"/>
                                 <exclude reference="FIV-Y4-O6Q"/>
                                 <exclude reference="tMB-bp-syT"/>
-                                <exclude reference="8qU-98-kyw"/>
-                                <exclude reference="Jla-T8-E2l"/>
-                                <exclude reference="eoa-Bh-XH6"/>
-                                <exclude reference="plq-Gq-aFU"/>
                                 <exclude reference="DOh-jg-8If"/>
                                 <exclude reference="hJm-fb-xlg"/>
                                 <exclude reference="wZW-xm-z9T"/>
+                                <exclude reference="8qU-98-kyw"/>
+                                <exclude reference="Jla-T8-E2l"/>
+                                <exclude reference="eoa-Bh-XH6"/>
+                                <exclude reference="1l3-qK-kge"/>
+                                <exclude reference="jDB-N5-o1z"/>
                                 <exclude reference="LbV-c6-0T2"/>
                                 <exclude reference="umY-w7-xKt"/>
                             </mask>
@@ -261,24 +298,25 @@
                                 <include reference="wwH-IE-W2m"/>
                                 <include reference="Jgi-nh-f0i"/>
                                 <include reference="gyD-Ek-AHq"/>
+                                <include reference="Oma-1F-c7A"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="1l3-qK-kge"/>
-                                <include reference="jDB-N5-o1z"/>
+                                <include reference="plq-Gq-aFU"/>
+                                <include reference="iEw-lQ-x2h"/>
                                 <include reference="pWp-Hc-j11"/>
                                 <include reference="rPT-yk-AA6"/>
-                                <include reference="iEw-lQ-x2h"/>
                                 <include reference="4rk-xX-cO2"/>
                                 <include reference="CD5-Qx-ULv"/>
                                 <include reference="FIV-Y4-O6Q"/>
                                 <include reference="tMB-bp-syT"/>
-                                <include reference="8qU-98-kyw"/>
-                                <include reference="Jla-T8-E2l"/>
-                                <include reference="eoa-Bh-XH6"/>
-                                <include reference="plq-Gq-aFU"/>
                                 <include reference="DOh-jg-8If"/>
                                 <include reference="hJm-fb-xlg"/>
                                 <include reference="wZW-xm-z9T"/>
+                                <include reference="8qU-98-kyw"/>
+                                <include reference="Jla-T8-E2l"/>
+                                <include reference="eoa-Bh-XH6"/>
+                                <include reference="1l3-qK-kge"/>
+                                <include reference="jDB-N5-o1z"/>
                                 <include reference="LbV-c6-0T2"/>
                                 <include reference="umY-w7-xKt"/>
                             </mask>
@@ -294,10 +332,12 @@
                         <outlet property="buttonSeven" destination="Jgi-nh-f0i" id="GTB-ix-hAN"/>
                         <outlet property="buttonSix" destination="wwH-IE-W2m" id="87o-Ee-lhS"/>
                         <outlet property="buttonTree" destination="Tc2-1y-uma" id="Wmq-Tg-kpK"/>
+                        <outlet property="whichPlayerLabel" destination="Oma-1F-c7A" id="3GK-KL-9zd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="304.5" y="353"/>
         </scene>
     </scenes>
 </document>
